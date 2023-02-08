@@ -1,0 +1,82 @@
+.Check {
+  width: 2rem;
+  height: 2rem;
+  background-color: transparent;
+  border: 1px solid var(--blue);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.Trash {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+.noTasks {
+  width: 46rem;
+  min-height: 18rem;
+  margin: 0rem auto;
+  align-items: center;
+  display: flex;
+  margin-top: 0rem;
+  flex-direction: column;
+  margin-top: 4rem;
+  gap: 1rem;
+}
+
+.Tasks {
+  width: 46rem;
+  height: 4.5rem;
+  margin: 0.5rem auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+
+  border-radius: 8px;
+
+  background: var(--gray-400);
+  color: var(--gray-100);
+}
+
+.Tasks.clicked {
+  background: var(--blue-dark);
+  color: var(--gray-100);
+}
+
+.Tasks p {
+  max-width: 39.5;
+  margin: 1rem 0;
+}
+
+.Check {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: transparent;
+  border: 1px solid var(--blue);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.Check.clicked,
+.Check:hover {
+  background-color: var(--blue-dark);
+}
+
+.Trash {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  padding: 2rem;
+  margin: 0;
+}
+
+.Trash:focus {
+  box-shadow: none;
+}
+
+.Completed {
+  text-decoration: line-through;
+}

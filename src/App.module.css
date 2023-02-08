@@ -1,0 +1,9 @@
+.input {
+  /* 1rem = 16px */
+  /* x = 1024px */
+  width: 46rem;
+  height: 3.375rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
